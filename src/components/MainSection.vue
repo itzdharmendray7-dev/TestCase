@@ -1,5 +1,32 @@
 <script setup lang="ts">
-import CodeTesting from 'src/components/CodeTesting.vue';
+import { ref, onMounted, onUnmounted } from 'vue';
+
+const image = ref<HTMLImageElement | null>(null);
+
+const rotation = ref(0);
+const saturate = ref(100);
+
+const maxRotation = 180;
+const maxSaturate = 100;
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
+
+const handleScroll = () => {
+  if (image.value) {
+    const scrollTop = window.scrollY;
+    const scrollFraction = scrollTop / (window.innerHeight * 0.1);
+
+    // Calculate rotation and saturation based on scroll position
+    rotation.value = Math.min(scrollFraction * maxRotation, maxRotation);
+    saturate.value = Math.max(0, maxSaturate - Math.abs(scrollFraction) * maxSaturate);
+  }
+};
 </script>
 
 <template>
@@ -14,7 +41,13 @@ import CodeTesting from 'src/components/CodeTesting.vue';
       </div>
 
       <div class="column-84 w-col w-col-4">
-        <CodeTesting />
+        <img ref="image"
+          src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/645ccce745e064220abd3d4e_Tamara%20Sredojevic.png"
+          loading="lazy" sizes="(max-width: 991px) 330px, (max-width: 1279px) 30vw, (max-width: 1919px) 330px, 17vw"
+          srcset="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/645ccce745e064220abd3d4e_Tamara%20Sredojevic-p-500.png 500w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/645ccce745e064220abd3d4e_Tamara%20Sredojevic.png 811w"
+          alt="AI style headshot of Tamara Sredojevic with pastel colours. Tamara is in her 30s and has short dark hair."
+          class="image-46" style="transform-style: preserve-3d; will-change: transform; transition: transform 0.3s ease;"
+          :style="{ transform: `rotateY(${rotation}deg)`, filter: `saturate(${saturate}%)` }" />
 
         <div class="columns-44 w-row">
           <div class="column-113 w-col w-col-6">
