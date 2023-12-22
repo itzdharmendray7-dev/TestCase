@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import CodeTesting from 'src/components/CodeTesting.vue';
+</script>
+
 <template>
   <main id="main" class="section-5 header">
     <div class="columns-43 w-row">
@@ -8,13 +12,9 @@
           </h1>
         </div>
       </div>
+
       <div class="column-84 w-col w-col-4">
-        <img src="/Tamara Sredojevic.png" loading="lazy"
-          sizes="(max-width: 991px) 330px, (max-width: 1279px) 30vw, (max-width: 1919px) 330px, 17vw"
-          srcset="/Tamara Sredojevic.png 500w, /Tamara Sredojevic.png"
-          alt="AI style headshot of Tamara Sredojevic with pastel colours. Tamara is in her 30s and has short dark hair."
-          class="image-46"
-          style="will-change: transform, filter; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; filter: saturate(100%);">
+        <CodeTesting />
 
         <div class="columns-44 w-row">
           <div class="column-113 w-col w-col-6">
