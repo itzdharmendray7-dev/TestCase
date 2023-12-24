@@ -54,8 +54,8 @@
           </p>
         </div>
 
-        <a href="/work/inflow" class="nav-link">Inflow's case study</a>
-        <link rel="prefetch" href="/work/inflow">
+        <a href="/inflow-case-study" class="nav-link">Inflow's case study</a>
+        <!-- <link rel="prefetch" href="/inflow-case-study"> -->
       </div>
     </div>
 
@@ -102,7 +102,7 @@
           </p>
         </div>
 
-        <a href="/work/neon" class="nav-link">Neon's case study</a>
+        <a href="/neon-case-study" class="nav-link">Neon's case study</a>
       </div>
     </div>
 
@@ -150,7 +150,7 @@
           </p>
         </div>
 
-        <a href="/work/linkorep" class="nav-link">Linkorep's case study</a>
+        <a href="/linkorep-case_study" class="nav-link">Linkorep's case study</a>
       </div>
     </div>
 

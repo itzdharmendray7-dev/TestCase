@@ -4,46 +4,11 @@ import MainSection from 'src/components/MainSection.vue';
 import DesignEthics from 'src/components/DesignEthics.vue';
 import FooterSection from 'src/components/FooterSection.vue';
 import FeaturedProjects from 'src/components/FeaturedProjects.vue';
-
-
+import HeaderSection from 'src/components/HeaderSection.vue';
 </script>
 
 <template>
-  <div class="navbar-logo-center">
-    <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease"
-      role="banner" class="navbar-logo-center-container shadow-three w-nav">
-      <a id="skip-to-main" href="#main" class="skip-to-main w-inline-block w--current">
-        <div class="nav-link">Skip to content</div>
-      </a>
-      <div class="container">
-        <div class="navbar-wrapper-three">
-          <a href="/" aria-current="page" class="navbar-brand-three w-nav-brand w--current" aria-label="home">
-            <img src="/logo tamara.svg" loading="lazy" width="150" alt="Tamara_Sredojevic" class="image-45">
-          </a>
-          <nav role="navigation" class="nav-menu-wrapper-three w-nav-menu">
-            <div class="nav-menu-three">
-              <a href="mailto:hello@iamtamara.design" class="nav-link email-2">EMAIL ME</a>
-              <ul role="list" class="nav-menu-block w-list-unstyled">
-                <li class="list-item email">
-                  <a href="mailto:hello@iamtamara.design" class="nav-link email">EMAIL ME</a>
-                </li>
-                <li class="list-item">
-                  <a href="#ethics" class="nav-link">ETHICS</a>
-                </li>
-                <li class="list-item">
-                  <a href="#work" class="nav-link">WORK</a>
-                </li>
-                <li class="list-item">
-                  <a href="#about" class="nav-link">ABOUT</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
-    </div>
-  </div>
+  <HeaderSection />
 
   <MainSection />
 
