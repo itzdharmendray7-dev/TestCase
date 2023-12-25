@@ -2,8 +2,7 @@
   <footer class="section-5 newsletter">
     <div class="title w-container">
       <article id="newsletter" class="div-block-89">
-        <img src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/645e1fc376ae297d29a09f24_onigiri.png"
-          loading="lazy" alt="" class="image-44" />
+        <img src="/onigiri.png" loading="lazy" alt="" class="image-44" />
 
         <h2 class="h2 white">Fair <strong>Design</strong></h2>
 
@@ -48,9 +47,7 @@
 
       <div class="column-123 w-col w-col-3">
         <a href="https://cleancreatives.org/home" target="_blank" class="w-inline-block">
-          <img
-            src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/638e34ba9fffbf3063968749_Clean-Creatives-Seal%5BGRADIENT%5D.png"
-            loading="lazy" alt="Clean creatives pledge badge" class="image-43" />
+          <img src="/Clean-Creatives-Seal.png" loading="lazy" alt="Clean creatives pledge badge" class="image-43" />
         </a>
       </div>
 

@@ -96,9 +96,7 @@
 
       <div class="w-col w-col-3">
         <a href="https://cleancreatives.org/home" target="_blank" class="w-inline-block">
-          <img
-            src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/638e34ba9fffbf3063968749_Clean-Creatives-Seal%5BGRADIENT%5D.png"
-            loading="lazy" alt="Clean creatives pledge badge" class="image-43" />
+          <img src="/Clean-Creatives-Seal.png" loading="lazy" alt="Clean creatives pledge badge" class="image-43" />
         </a>
       </div>
 
