@@ -20,7 +20,7 @@ onUnmounted(() => {
 const handleScroll = () => {
   if (image.value) {
     const scrollTop = window.scrollY;
-    const scrollFraction = scrollTop / (window.innerHeight * 0.1);
+    const scrollFraction = scrollTop / (window.innerHeight * 0.2);
 
     // Calculate rotation and saturation based on scroll position
     rotation.value = Math.min(scrollFraction * maxRotation, maxRotation);
