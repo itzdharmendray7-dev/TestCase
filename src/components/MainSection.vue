@@ -1,34 +1,3 @@
-<script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
-
-const image = ref<HTMLImageElement | null>(null);
-
-const rotation = ref(0);
-const saturate = ref(100);
-
-const maxRotation = 180;
-const maxSaturate = 100;
-
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
-});
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll);
-});
-
-const handleScroll = () => {
-  if (image.value) {
-    const scrollTop = window.scrollY;
-    const scrollFraction = scrollTop / (window.innerHeight * 0.2);
-
-    // Calculate rotation and saturation based on scroll position
-    rotation.value = Math.min(scrollFraction * maxRotation, maxRotation);
-    saturate.value = Math.max(0, maxSaturate - Math.abs(scrollFraction) * maxSaturate);
-  }
-};
-</script>
-
 <template>
   <main id="main" class="section-5 header">
     <div class="columns-43 w-row">
@@ -93,3 +62,33 @@ const handleScroll = () => {
     </div>
   </main>
 </template>
+
+<script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue';
+
+const image = ref<HTMLImageElement | null>(null);
+
+const rotation = ref(0);
+const saturate = ref(100);
+
+const maxRotation = 180;
+const maxSaturate = 100;
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
+
+const handleScroll = () => {
+  if (image.value) {
+    const scrollTop = window.scrollY;
+    const scrollFraction = scrollTop / (window.innerHeight * 0.2);
+
+    rotation.value = Math.min(scrollFraction * maxRotation, maxRotation);
+    saturate.value = Math.max(0, maxSaturate - Math.abs(scrollFraction) * maxSaturate);
+  }
+};
+</script>

@@ -1,12 +1,4 @@
 <template>
-  <!-- <title>Accessible web design for a non-profit | Tamara Sredojevic</title> -->
-  <!-- <meta content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fbb411b824c3482a61627_neon-min.jpg"
-      property="og:image" /> -->
-  <!-- <meta content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fbb411b824c3482a61627_neon-min.jpg"
-      property="twitter:image" /> -->
-  <!-- <link href="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/css/iamtamara.webflow.85a5b1b61.min.css"
-      rel="stylesheet" type="text/css" /> -->
-
   <div class="navbar-logo-center">
     <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease"
       role="banner" class="navbar-logo-center-container shadow-three w-nav">
@@ -61,7 +53,8 @@
       </div>
 
       <div class="div-block-91">
-        <img src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min.jpg"
+        <img
+          src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min.jpg"
           loading="lazy" sizes="(max-width: 991px) 96vw, (max-width: 1919px) 80vw, (max-width: 2857px) 70vw, 2000px"
           srcset="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min-p-500.jpg 500w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min-p-800.jpg 800w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min-p-1080.jpg 1080w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min-p-1600.jpg 1600w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467575e50f1caaeee9b95a5_home-min.jpg 2000w"
           alt="a laptop computer sitting on top of a round table, showing Neon&#x27;s homepage." class="image-49" />
@@ -213,7 +206,8 @@
       </div>
 
       <div class="div-block-91">
-        <img src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467594a03be9aea629f39d5_ipad-min.jpg"
+        <img
+          src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467594a03be9aea629f39d5_ipad-min.jpg"
           loading="lazy" sizes="100vw"
           srcset="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467594a03be9aea629f39d5_ipad-min-p-500.jpg 500w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467594a03be9aea629f39d5_ipad-min-p-800.jpg 800w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467594a03be9aea629f39d5_ipad-min-p-1080.jpg 1080w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6467594a03be9aea629f39d5_ipad-min.jpg 1400w"
           alt="an ipad showing a grid of Neon&#x27;s brand colours with their contrast ratio and accessibility score." />
@@ -264,7 +258,8 @@
   <section class="section-5">
     <div class="title w-container">
       <div class="div-block-91">
-        <img src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min.jpg"
+        <img
+          src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min.jpg"
           loading="lazy" sizes="100vw"
           srcset="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min-p-500.jpg 500w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min-p-800.jpg 800w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min-p-1080.jpg 1080w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min-p-1600.jpg 1600w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675b1593ad64001f84c9e4_neon-min.jpg 1920w"
           alt="two ipads showing bits of a page from Neon&#x27;s site, with people in training for &quot;broadcast media interviews training&quot;." />

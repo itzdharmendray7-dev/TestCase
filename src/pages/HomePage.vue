@@ -1,12 +1,3 @@
-<script setup lang="ts">
-import AboutMe from 'src/components/AboutMe.vue';
-import MainSection from 'src/components/MainSection.vue';
-import DesignEthics from 'src/components/DesignEthics.vue';
-import FooterSection from 'src/components/FooterSection.vue';
-import FeaturedProjects from 'src/components/FeaturedProjects.vue';
-import HeaderSection from 'src/components/HeaderSection.vue';
-</script>
-
 <template>
   <HeaderSection />
 
@@ -59,5 +50,14 @@ import HeaderSection from 'src/components/HeaderSection.vue';
 
   <FooterSection />
 </template>
+
+<script setup lang="ts">
+import AboutMe from 'src/components/AboutMe.vue';
+import MainSection from 'src/components/MainSection.vue';
+import DesignEthics from 'src/components/DesignEthics.vue';
+import FooterSection from 'src/components/FooterSection.vue';
+import FeaturedProjects from 'src/components/FeaturedProjects.vue';
+import HeaderSection from 'src/components/HeaderSection.vue';
+</script>
 
 <style scoped></style>

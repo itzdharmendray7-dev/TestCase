@@ -1,14 +1,4 @@
 <template>
-  <!-- <title>Privacy policy | Tamara Sredojevic</title>
-    <meta
-      content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fba1838d01f75b373151a_Frame%201616-min.jpg"
-      property="og:image" />
-    <meta
-      content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fba1838d01f75b373151a_Frame%201616-min.jpg"
-      property="twitter:image" />
-    <link href="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/css/iamtamara.webflow.85a5b1b61.min.css"
-      rel="stylesheet" type="text/css" /> -->
-
   <div class="navbar-logo-center">
     <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease"
       role="banner" class="navbar-logo-center-container shadow-three w-nav">

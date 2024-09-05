@@ -1,18 +1,4 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  <!-- <title>Rebrand and app website for ADHDers | Tamara Sredojevic</title> -->
-  <!-- <meta
-      content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fbae14d215cb876ca34b6_Group%201620-min.jpg"
-      property="og:image" /> -->
-  <!-- <meta
-    content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fbae14d215cb876ca34b6_Group%201620-min.jpg"
-    property="twitter:image" /> -->
-  <!-- <link href="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/css/iamtamara.webflow.85a5b1b61.min.css"
-    rel="stylesheet" type="text/css" /> -->
-
   <div class="navbar-logo-center">
     <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease"
       role="banner" class="navbar-logo-center-container shadow-three w-nav">

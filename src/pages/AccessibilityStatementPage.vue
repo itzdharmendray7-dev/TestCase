@@ -1,11 +1,4 @@
 <template>
-  <!-- <title>Accessibility statement | Tamara Sredojevic</title>
-  <meta
-    content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fba75537c1365bf3c31fd_Frame%201617-min.jpg"
-    property="og:image" />
-  <link href="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/css/iamtamara.webflow.85a5b1b61.min.css"
-    rel="stylesheet" type="text/css" /> -->
-
   <section class="section-5-haut">
     <div class="title w-container">
       <div class="div-block-80">
@@ -29,7 +22,7 @@
             <h2 class="h3">Standards and guidelines</h2>
             <p>
               I have designed and developed this site with the aim of meeting accessibility standards and guidelines. I
-              follow the Web Content Accessibility Guidelines (WCAG) 2.1, a globally recognised standard for web
+              follow the Web Content Accessibility Guidelines (WCAG) 2.1, a globally recognized standard for web
               accessibility. By adhering to these guidelines, I aim to make my website perceivable, operable,
               understandable, and robust for all users.
             </p>
@@ -39,8 +32,8 @@
             <h3 class="h3">Accessible design</h3>
             <p>
               I have taken several measures to ensure an accessible design. This includes using clear and easy-to-read
-              fonts, providing sufficient colour contrast for readability, and using alt text for images to provide
-              descriptions. I have also structured the content in a logical and organised manner, making it easier for
+              fonts, providing sufficient color contrast for readability, and using alt text for images to provide
+              descriptions. I have also structured the content in a logical and organized manner, making it easier for
               screen readers and assistive technologies to interpret and navigate the site.
             </p>
           </div>

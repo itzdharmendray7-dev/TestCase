@@ -1,14 +1,4 @@
 <template>
-  <!-- <title>Inclusive brand design for a Twitch channel | Tamara Sredojevic</title> -->
-  <!-- <meta
-    content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fbb954d215cb876cafd07_Group%201622-min.jpg"
-    property="og:image" /> -->
-  <!-- <meta
-    content="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/646fbb954d215cb876cafd07_Group%201622-min.jpg"
-    property="twitter:image" /> -->
-  <!-- <link href="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/css/iamtamara.webflow.85a5b1b61.min.css"
-    rel="stylesheet" type="text/css" /> -->
-
   <div class="navbar-logo-center">
     <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease"
       role="banner" class="navbar-logo-center-container shadow-three w-nav">
@@ -228,7 +218,8 @@
   <section class="section-5">
     <div class="title w-container">
       <div class="div-block-91">
-        <img src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min.jpg"
+        <img
+          src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min.jpg"
           loading="lazy" sizes="(max-width: 991px) 96vw, (max-width: 1919px) 80vw, 100vw"
           srcset="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min-p-500.jpg 500w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min-p-800.jpg 800w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min-p-1080.jpg 1080w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min-p-1600.jpg 1600w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/6466816b757ba8a86433e0e6_iMac-min.jpg 2000w"
           alt="an imac sitting on a desk showing a &quot;be right back&quot; screen for Linkorep&#x27;s Twitch channel." />
@@ -241,7 +232,8 @@
       <div class="testimonial-card-three">
         <div class="testimonial-card-content">
           <div class="testimonial-info-four">
-            <img src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675ff20f40c33763b19dde_laora.jpg"
+            <img
+              src="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675ff20f40c33763b19dde_laora.jpg"
               loading="lazy" sizes="(max-width: 1279px) 80px, (max-width: 1439px) 6vw, 80px"
               srcset="https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675ff20f40c33763b19dde_laora-p-500.jpg 500w, https://assets-global.website-files.com/5f50efa4420f363f6b5670b2/64675ff20f40c33763b19dde_laora.jpg 698w"
               alt="" class="testimonial-image centered" />
